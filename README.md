@@ -8,6 +8,8 @@ This repository holds C++ implementations of some basic ciphers.
 Substitution cipher i.e. each letter is replaced with a letter corresponding to e 
 key shift. In classical Caesar cipher, that shift is 3 ('a' becomes 'd', b becomes 'e' etc)
 
+2. Rot90 - an algorithm that rotates a two dimensional array by 90 deg.
+
 
 ## Authors
 
