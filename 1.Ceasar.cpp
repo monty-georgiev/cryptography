@@ -14,11 +14,11 @@ void caesar_cipher(string inputText, bool encode)
     {
         if (encode)
         {
-            outputChar = (char)((((tolower(inputText[i]) + 3) - 97) % 26) + 97);
+            outputChar = ((((tolower(inputText[i]) + 3) - 97) % 26) + 97);
         }
         else
         {
-            outputChar = (char)((((tolower(inputText[i]) - 3) - 97) % 26) + 97);
+            outputChar = ((((tolower(inputText[i]) - 3) - 97) % 26) + 97);
         }
 
         outputString += outputChar;
