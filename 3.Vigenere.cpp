@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cstdlib>
 
 using namespace std;
 
@@ -24,12 +23,11 @@ void vigenere_cipher(string inputText, string keyword, bool encode)
         }
         else
         {
-
             outputChar = ((inputText[i] - 97) - (keywordLong[i] - 97)) % 26;
 
             /* When decoding % operation might return a negative number
             *  In such case, substract from last index,
-            *  otherwise add to first index 
+            *  otherwise if positive add to first index.
             */
             if (outputChar < 0)
             {
