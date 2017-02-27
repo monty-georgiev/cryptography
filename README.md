@@ -14,6 +14,8 @@ key shift. In classical Caesar cipher, that shift is 3 ('a' becomes 'd', b becom
 however uses a keyword for the character shift. If the key is shorter than the plaintext, it is
 repeated until the length matches.
 
+4.  Rail Fence.
+
 
 ## Authors
 

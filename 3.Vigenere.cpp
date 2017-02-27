@@ -5,7 +5,6 @@ using namespace std;
 
 void vigenere_cipher(string inputText, string keyword, bool encode)
 {
-
     string outputString = "Result is: ";
     string keywordLong = "";
     int keywordLength = keyword.length();
